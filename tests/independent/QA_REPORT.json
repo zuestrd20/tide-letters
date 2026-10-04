@@ -1,0 +1,40 @@
+{
+  "date_utc": "2026-10-04",
+  "source": ".",
+  "godot": "4.6.3.stable.official.7d41c59c4",
+  "story_sha256": "08c4399c04a99d7841978d5e577b50307169ff530fb650157f70b1cd26916c9b",
+  "main_sha256": "e4f0f5533245b7c0b98083c96d58607c4cea083b973d4adef1e7b7cc5aa49e25",
+  "pass": [
+    "All 499 story nodes reachable; all references/assets resolve; DAG has 7 reachable endings",
+    "All 7 ending routes driven through actual Godot engine and saved/loaded with equal state",
+    "All 60 options across 29 choice nodes reach correct target and apply affection/flags",
+    "Reveal-then-advance, settings pause, auto and read-skip stop at choices, unread skip stop, double-choice cooldown",
+    "Manual slot roundtrip/overwrite and isolation from autosave",
+    "Malformed JSON/schema/version/node save rejection preserves active state; profile clamps and rejects invalid values",
+    "9 RGBA character images, all 512x880, alpha range 0..254; 4 background images plus room alias resolve",
+    "Maximum paragraph 231 Unicode characters; 205 Han characters",
+    "Font distributed with full SIL OFL 1.1 notice in fonts/LICENSE.txt",
+    "Reviewed seven ending summaries, final nodes and relationship choices: explicitly adult main cast aged 25-28; romance/companionship/solo endings respect consent and boundaries, no explicit sexual content in reviewed passages",
+    "Visually inspected engine-provided title/y002/s002 screenshots: Chinese rendering, portrait transparency and text/button layout show no obvious clipping; no native interaction by auditor",
+    "Reviewed longest-node c0192 screenshot: scrollbar correctly present, content intentionally scrolls; three-choice choose_person screenshot has no button overlap or overflow",
+    "README explicitly distinguishes text-count estimates from timed play; Windows OS not tested, Web GPU play not verified, AI-generated art and OFL license disclosed"
+  ],
+  "fixed_during_audit": [
+    "Save/profile schema validation missing",
+    "Unexpected affection key dictionary caused int constructor script error",
+    "Malformed JSON logging replaced with quiet status-aware parser",
+    "Audio shutdown leaks eliminated by stop/null then 0.25 second delay; final engine self-test rerun"
+  ],
+  "not_run": [
+    "Native UI interaction (engine owner reports conducting; auditor reviewed 5 supplied screenshots only)",
+    "Windows executable on Windows OS",
+    "Web export in working WebGL2 environment",
+    "Exhaustive hand-reading of every prose node; only ending/relationship/adult-boundary targeted review"
+  ],
+  "evidence": [
+    "tests/story_report.json",
+    "tests/independent/flow_test.gd",
+    "tests/independent/save_test.gd",
+    "tests/web_asset_report.json"
+  ]
+}

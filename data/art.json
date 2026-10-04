@@ -1,0 +1,26 @@
+{
+  "characters": {
+    "lin": {
+      "neutral": "res://assets/characters/lin_neutral.png",
+      "smile": "res://assets/characters/lin_smile.png",
+      "thoughtful": "res://assets/characters/lin_thoughtful.png"
+    },
+    "su": {
+      "neutral": "res://assets/characters/su_neutral.png",
+      "smile": "res://assets/characters/su_smile.png",
+      "thoughtful": "res://assets/characters/su_thoughtful.png"
+    },
+    "ye": {
+      "neutral": "res://assets/characters/ye_neutral.png",
+      "smile": "res://assets/characters/ye_smile.png",
+      "thoughtful": "res://assets/characters/ye_thoughtful.png"
+    }
+  },
+  "backgrounds": {
+    "bookstore": "res://assets/backgrounds/bookstore.png",
+    "seaside": "res://assets/backgrounds/seaside.png",
+    "cafe": "res://assets/backgrounds/cafe.png",
+    "festival": "res://assets/backgrounds/festival.png",
+    "room": "res://assets/backgrounds/cafe.png"
+  }
+}

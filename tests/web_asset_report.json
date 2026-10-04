@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "single_thread": true,
+  "assets": {
+    "index.html": {
+      "status": 200,
+      "bytes": 4864,
+      "sha256": "d958da0a1871dc6a48de25f68636bc550f4f22a784f1d7a454b5c20eb534a1ee"
+    },
+    "game.html": {
+      "status": 200,
+      "bytes": 5454,
+      "sha256": "b43fa690d66806edf075464c074e8dce430c4ab5591222055e27744dac60b584"
+    },
+    "game.js": {
+      "status": 200,
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    "game.pck": {
+      "status": 200,
+      "bytes": 30667252,
+      "sha256": "dacea7da5700c4cf517984e7837c19caba3bd05faeac2f7fa2b90d26f4ba9247"
+    },
+    "game.wasm": {
+      "status": 200,
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    },
+    "game.audio.worklet.js": {
+      "status": 200,
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "game.audio.position.worklet.js": {
+      "status": 200,
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    }
+  }
+}

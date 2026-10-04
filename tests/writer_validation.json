@@ -1,0 +1,44 @@
+{
+  "node_count": 499,
+  "max_node_characters": 231,
+  "max_node_cjk": 205,
+  "choice_nodes": 29,
+  "ending_count": 7,
+  "letter_count": 7,
+  "body_cjk": 41229,
+  "choice_cjk": 1020,
+  "paths_cjk": {
+    "lin_good": [
+      17339,
+      17459
+    ],
+    "lin_friend": [
+      17346,
+      17466
+    ],
+    "su_good": [
+      17523,
+      17667
+    ],
+    "su_friend": [
+      17549,
+      17693
+    ],
+    "ye_good": [
+      18318,
+      18457
+    ],
+    "ye_friend": [
+      18323,
+      18462
+    ],
+    "solo": [
+      10163,
+      10264
+    ]
+  },
+  "all_nodes_reachable": true,
+  "links_valid": true,
+  "acyclic": true,
+  "all_choices_2_or_3": true
+}
